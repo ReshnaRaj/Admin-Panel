@@ -32,13 +32,15 @@ const Home = () => {
   const plan1={
     planName1:'Free Starter',
     features:['Upto 35 Users', 'Upto 50gb storage', 'Phone Support'],
-    buttonColor: 'bg-green-200 border-green-200'
+    buttonColor: 'bg-green-200 border-green-200',
+    buttonName:'Get Started'
 
   }
   const plan2={
     planName1:'Enterprise Plan',
-    features: ['More than 75 Users'],
-    buttonColor: 'bg-blue-200 border-blue-200'
+    features: ['More than 75 Users','Customization of all users'],
+    buttonColor: 'bg-blue-200 border-blue-200',
+    buttonName:'Contact Us'
 
   }
   return (
