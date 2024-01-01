@@ -41,6 +41,7 @@ const Home = () => {
     <div className="flex flex-row">
       {/* Two containers in a row */}
      <Container2/>
+     
     </div>
   </>
   )
