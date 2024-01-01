@@ -28,6 +28,19 @@ const Home = () => {
     features: ['Upto 35 Users', 'Upto 50gb storage', 'Phone Support'],
     buttonColor: 'bg-red-200 border-red-200'
   };
+  
+  const plan1={
+    planName1:'Free Started',
+    features:['Upto 35 Users', 'Upto 50gb storage', 'Phone Support'],
+    buttonColor: 'bg-green-200 border-green-200'
+
+  }
+  const plan2={
+    planName1:'Enterprise Plan',
+    features: ['More than 75 Users'],
+    buttonColor: 'bg-blue-200 border-blue-200'
+
+  }
   return (
     <>
     <h1>Choose a plan that's just right for you!</h1>
@@ -40,8 +53,9 @@ const Home = () => {
     </div>
     <div className="flex flex-row">
       {/* Two containers in a row */}
-     <Container2/>
-     
+     <Container2 {...plan1}/>
+     <Container2 {...plan2}/>
+
     </div>
   </>
   )
