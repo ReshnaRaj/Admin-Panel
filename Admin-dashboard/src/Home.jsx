@@ -1,6 +1,7 @@
 import React from 'react'
 import Container from './Container'
 import Container2 from './Container2';
+import Header from './Header';
 
 const Home = () => {
 
@@ -33,27 +34,30 @@ const Home = () => {
     planName1:'Free Starter',
     features:['Upto 35 Users', 'Upto 50gb storage', 'Phone Support'],
     buttonColor: 'bg-green-200 border-green-200',
-    buttonName:'Get Started'
+    buttonName:'Get Started',
+    description:'The quickest and easy way to try Protocols with basic functionalities'
 
   }
   const plan2={
     planName1:'Enterprise Plan',
     features: ['More than 75 Users','Customization of all users'],
     buttonColor: 'bg-blue-200 border-blue-200',
-    buttonName:'Contact Us'
+    buttonName:'Contact Us',
+    description:'Effortlessly customize and fine-tune services as your needshift,ensuring the perfect tools for success'
 
   }
   return (
     <>
+   
     <h1>Choose a plan that's just right for you!</h1>
-    <div className="flex flex-row mt-12">
+    <div className="flex flex-row mt-6">
      
       <Container {...basicPlan} />
       <Container {...standardPlan} />
       <Container {...premiumPlan} />
     
     </div>
-    <div className="flex flex-row">
+    <div className="flex flex-row mt-5">
       {/* Two containers in a row */}
      <Container2 {...plan1}/>
      <Container2 {...plan2}/>
