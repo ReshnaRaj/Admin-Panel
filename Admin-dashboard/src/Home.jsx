@@ -30,7 +30,7 @@ const Home = () => {
   };
   
   const plan1={
-    planName1:'Free Started',
+    planName1:'Free Starter',
     features:['Upto 35 Users', 'Upto 50gb storage', 'Phone Support'],
     buttonColor: 'bg-green-200 border-green-200'
 

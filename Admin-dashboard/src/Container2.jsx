@@ -5,6 +5,7 @@ const Container2 = ({ planName1,features,buttonColor }) => {
      <>
       <div className="flex-1 border p-4 m-2 flex flex-col lg:flex-row rounded-md">
       <div className="lg:w-1/2 lg:pr-4">
+        <button className='rounded-md'>Free Forever</button>
         <h2>{planName1}</h2>
         <p className='text-sm'>The quickest and easiest way to try protocols with best functionalities</p>
         <button className={`py-2 px-4 mt-4 border-b-2 ${buttonColor} rounded-lg text-sm` }>
