@@ -1,7 +1,8 @@
 import React from 'react'
-import { MdDashboard } from "react-icons/md";
+import { MdDashboard ,MdContactSupport } from "react-icons/md";
 import { GiFlowerPot } from "react-icons/gi";
 import { PiSimCard } from "react-icons/pi";
+import { IoLogoWechat } from "react-icons/io5";
 
 const Sidebar = () => {
   return (
@@ -30,14 +31,15 @@ const Sidebar = () => {
         </li>
         <li className="flex items-center">
           <span className="lg:ml-2 font-bold hidden lg:block ">
+            <PiSimCard/>
             AddOns
           </span>
         </li>
         <li className="flex items-center">
-          <span className="lg:ml-2 font-bold hidden lg:block  ">FAQ</span>
+          <span className="lg:ml-2 font-bold hidden lg:block  "><IoLogoWechat />FAQ</span>
         </li>
         <li className="flex items-center">
-          <span className="lg:ml-2 font-bold hidden lg:block  "> Support</span>
+          <span className="lg:ml-2 font-bold hidden lg:block  "><MdContactSupport /> Support</span>
         </li>
         
          
