@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from './Container'
 import Container2 from './Container2';
-import Header from './Header';
+ 
 
 const Home = () => {
 
