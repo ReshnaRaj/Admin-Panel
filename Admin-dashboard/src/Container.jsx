@@ -2,7 +2,7 @@ import React from 'react';
 
 const Container = ({ planName, originalPrice, discountedPrice, features, buttonColor }) => {
   return (
-    <div className="flex-1 border p-4 m-2 rounded-md">
+    <div className="flex-1 border p-4 m-2 rounded-md hover:shadow-2xl">
       <h2>{planName}</h2>
       <p>
         <span className="text-red-500 line-through text-sm">

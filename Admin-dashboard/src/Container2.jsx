@@ -3,7 +3,7 @@ import React from 'react'
 const Container2 = ({ planName1,features,buttonColor ,buttonName,description}) => {
   return (
      <>
-      <div className="flex-1 border p-4 m-2 flex flex-col lg:flex-row rounded-md">
+      <div className="flex-1 border p-4 m-2 flex flex-col lg:flex-row rounded-md hover:shadow-2xl">
       <div className="lg:w-1/2 lg:pr-4">
          
         <h2>{planName1}</h2>

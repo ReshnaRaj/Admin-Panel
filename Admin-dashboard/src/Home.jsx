@@ -48,7 +48,6 @@ const Home = () => {
   }
   return (
     <>
-   
     <h1>Choose a plan that's just right for you!</h1>
     <div className="flex flex-row mt-6">
      
